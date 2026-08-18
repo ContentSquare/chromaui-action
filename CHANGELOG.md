@@ -1,3 +1,43 @@
+# v18.3.0 (Tue Aug 18 2026)
+
+#### 🚀 Enhancement
+
+- Filter `.storybook/*.md` and `.storybook/*.txt` changes from TurboSnap [#1446](https://github.com/chromaui/chromatic-cli/pull/1446) ([@codykaup](https://github.com/codykaup))
+
+#### 🐛 Bug Fix
+
+- Grab correct version of `@storybook/angular-vite` [#1445](https://github.com/chromaui/chromatic-cli/pull/1445) ([@codykaup](https://github.com/codykaup))
+- Support `DO_NOT_TRACK` & `CHROMATIC_DISABLE_TELEMETRY` [#1438](https://github.com/chromaui/chromatic-cli/pull/1438) ([@jmhobbs](https://github.com/jmhobbs))
+- fix: pass Chromatic Project ID in `buildStorybook` [#1437](https://github.com/chromaui/chromatic-cli/pull/1437) ([@AriPerkkio](https://github.com/AriPerkkio))
+- Fix CI release step [#1435](https://github.com/chromaui/chromatic-cli/pull/1435) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 3
+
+- Ari Perkkiö ([@AriPerkkio](https://github.com/AriPerkkio))
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+- John Hobbs ([@jmhobbs](https://github.com/jmhobbs))
+
+---
+
+# v18.2.0 (Tue Aug 11 2026)
+
+#### 🚀 Enhancement
+
+- Restore patch build functionality [#1428](https://github.com/chromaui/chromatic-cli/pull/1428) ([@jmhobbs](https://github.com/jmhobbs))
+
+#### 🐛 Bug Fix
+
+- Upgrade Yarn and set `npmMinimalAgeGate` to 7 days [#1427](https://github.com/chromaui/chromatic-cli/pull/1427) ([@jmhobbs](https://github.com/jmhobbs))
+- Support more `.storybook/main` config structures [#1424](https://github.com/chromaui/chromatic-cli/pull/1424) ([@codykaup](https://github.com/codykaup))
+- Bound `getFileHashes` peak memory by concurrency [#1426](https://github.com/chromaui/chromatic-cli/pull/1426) ([@codykaup](https://github.com/codykaup))
+
+#### Authors: 2
+
+- Cody Kaup ([@codykaup](https://github.com/codykaup))
+- John Hobbs ([@jmhobbs](https://github.com/jmhobbs))
+
+---
+
 # v18.1.0 (Tue Jul 21 2026)
 
 #### 🚀 Enhancement
